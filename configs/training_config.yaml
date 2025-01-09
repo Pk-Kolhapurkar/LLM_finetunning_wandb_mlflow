@@ -1,0 +1,14 @@
+experiment_name: "bert_sentiment_analysis"
+tokenizer_name: "bert-base-uncased"
+model_name: "bert-base-uncased"
+dataset_name: "emotion"
+output_dir: "./bert_output"
+num_train_epochs: 3
+batch_size: 16
+learning_rate: 2e-5
+weight_decay: 0.01
+evaluation_strategy: "epoch"
+save_total_limit: 2
+logging_dir: "./logs"
+logging_steps: 50
+num_labels: 6
