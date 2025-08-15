@@ -1,0 +1,12 @@
+
+mlflow>=3.1
+python-dotenv
+
+tiktoken
+langchain
+langchain-openai
+langchain-community
+
+langchain-pinecone
+pinecone
+sentence-transformers
